@@ -5,6 +5,8 @@
 #include <QTextStream>
 #include <QDir>
 
+//QMessageBox::information(this, "Login", "Login Successful!");
+
 QString student_path = "/data/Student.csv";
 
 LoginWindow::LoginWindow(QWidget *parent)
@@ -13,15 +15,13 @@ LoginWindow::LoginWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    QString database_path = "/data/mydb.db";
-    QString path = QDir::currentPath() + database_path;
-    mydb = QSqlDatabase::addDatabase("QSQLITE");
-    mydb.setDatabaseName(path);
-
-    if(!mydb.open())
+    if(!connOpen())
         ui->label_status->setText("Failed to open the database");
     else
+    {
+        emit databaseOpen(mydb);
         ui->label_status->setText("Connected...");
+    }
 }
 
 LoginWindow::~LoginWindow()
@@ -34,32 +34,55 @@ void LoginWindow::on_pushButton_login_clicked()
 {
     QString username = ui->lineEdit_username->text();
     QString password = ui->lineEdit_password->text();
-    if(verifyLogin(username, password))
+    QString fname;
+
+    if(!connOpen())
     {
-        QMessageBox::information(this, "Login", "Login Successful!");
-        hide();
-        //MainWindow = new LoginWindow(this);
-        //MainWindow->show();
-        emit loginAcquired(username);
+        qDebug() << "Failed to open the database\n";
+        return;
     }
-    else
-        QMessageBox::information(this, "Login", "Username or password is incorrect.");
 
+    QSqlQuery qry;
+    qry.prepare("SELECT * FROM Student WHERE email='"+username+"' AND password='"+password+"'");
+
+    if(qry.exec())
+    {
+        int count = 0;
+        while(qry.next())
+        {
+            count++;
+        }
+        if(count==1)
+        {
+            ui->label_status->setText("Username and password is correct");
+            QSqlQuery qry("SELECT first_name FROM Student WHERE email='"+username+"'");
+            while(qry.next())
+            {
+                fname = qry.value(0).toString();
+            }
+            connClose();
+            hide();
+            emit loginAcquired(fname, username);
+        }
+        if(count>1)
+            ui->label_status->setText("Duplicate username and password");
+        if(count<1)
+            ui->label_status->setText("Username and password is not correct");
+    }
 }
 
-bool LoginWindow::verifyLogin(QString user, QString pass)
-{
-    QString path = QCoreApplication::applicationDirPath() + student_path;
-    QMessageBox::information(this, "Debug",path);//QDir::currentPath()
-    // Insert code to cross check login credentials against csv
-    if(user == "Paul" && pass == "Davis")
-        return true;
-    else
-        return false;
-}
 
-/*void loginAcquired(QString username)
-{
-    emit getLoginData(username);
-}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
