@@ -1,0 +1,201 @@
+degree_id,dpt_id,name,description
+1,1,Master of Fully-configurable,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+2,2,Associate of capacity,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+3,3,Master of Operative,Nunc purus. Phasellus in felis. Donec semper sapien a libero.
+4,4,Bachelor of bifurcated,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim."
+5,5,Associate of multi-tasking,Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.
+6,6,Master of Extended,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+7,7,Master of throughput,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+8,8,Bachelor of encryption,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+9,9,Master of bandwidth-monitored,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+10,10,Master of Upgradable,Fusce consequat. Nulla nisl. Nunc nisl.
+11,1,Associate of asymmetric,Suspendisse potenti. Nullam porttitor lacus at turpis.
+12,2,Bachelor of standardization,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue."
+13,3,Associate of User-friendly,In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.
+14,4,Master of secured line,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+15,5,Bachelor of global,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.
+16,6,Bachelor of cohesive,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+17,7,Bachelor of parallelism,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+18,8,Bachelor of Graphic Interface,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+19,9,Associate of actuating,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+20,10,Associate of system-worthy,In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.
+21,1,Master of fault-tolerant,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+22,2,Associate of Advanced,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+23,3,Associate of complexity,Nunc purus. Phasellus in felis.
+24,4,Associate of Re-contextualized,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+25,5,Bachelor of Object-based,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+26,6,Bachelor of secondary,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc."
+27,7,Master of circuit,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+28,8,Bachelor of Focused,Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.
+29,9,Bachelor of Cloned,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+30,10,Master of monitoring,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+31,1,Associate of directional,Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.
+32,2,Associate of array,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+33,3,Master of architecture,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.
+34,4,Associate of structure,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque."
+35,5,Associate of Business-focused,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+36,6,Associate of Robust,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus."
+37,7,Bachelor of global,In congue. Etiam justo. Etiam pretium iaculis justo.
+38,8,Bachelor of Implemented,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est."
+39,9,Bachelor of Compatible,Suspendisse accumsan tortor quis turpis. Sed ante.
+40,10,Associate of moratorium,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices."
+41,1,Master of orchestration,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+42,2,Master of non-volatile,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim."
+43,3,Master of methodology,Donec posuere metus vitae ipsum. Aliquam non mauris.
+44,4,Master of zero administration,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+45,5,Bachelor of Phased,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc."
+46,6,Bachelor of Reduced,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.
+47,7,Master of firmware,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+48,8,Master of leading edge,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+49,9,Associate of neural-net,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+50,10,Bachelor of Reactive,Ut tellus. Nulla ut erat id mauris vulputate elementum.
+51,1,Associate of Open-source,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti."
+52,2,Associate of coherent,"Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+53,3,Master of Fully-configurable,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.
+54,4,Bachelor of Total,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+55,5,Bachelor of Switchable,Phasellus sit amet erat. Nulla tempus.
+56,6,Bachelor of systematic,Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.
+57,7,Bachelor of optimizing,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+58,8,Bachelor of Reverse-engineered,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+59,9,Associate of interface,"Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+60,10,Bachelor of client-driven,"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+61,1,Bachelor of task-force,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.
+62,2,Associate of artificial intelligence,Sed accumsan felis. Ut at dolor quis odio consequat varius.
+63,3,Bachelor of Vision-oriented,Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+64,4,Bachelor of Synergized,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+65,5,Master of Multi-lateral,"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+66,6,Bachelor of projection,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.
+67,7,Associate of real-time,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+68,8,Master of intranet,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.
+69,9,Master of Cross-group,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+70,10,Associate of Future-proofed,"Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+71,1,Associate of Multi-channelled,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+72,2,Bachelor of knowledge user,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis."
+73,3,Associate of algorithm,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam."
+74,4,Master of Inverse,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+75,5,Bachelor of disintermediate,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+76,6,Associate of content-based,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+77,7,Master of client-server,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat."
+78,8,Master of protocol,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum."
+79,9,Master of coherent,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+80,10,Master of monitoring,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+81,1,Master of Polarised,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+82,2,Associate of Phased,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+83,3,Associate of Upgradable,Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.
+84,4,Bachelor of Polarised,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy."
+85,5,Associate of Pre-emptive,"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+86,6,Bachelor of contextually-based,In quis justo. Maecenas rhoncus aliquam lacus.
+87,7,Associate of infrastructure,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+88,8,Associate of Optional,Maecenas pulvinar lobortis est. Phasellus sit amet erat.
+89,9,Master of tertiary,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis."
+90,10,Master of help-desk,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.
+91,1,Bachelor of Programmable,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus."
+92,2,Master of Networked,Etiam justo. Etiam pretium iaculis justo.
+93,3,Master of policy,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique."
+94,4,Bachelor of extranet,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.
+95,5,Master of core,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+96,6,Bachelor of Quality-focused,Suspendisse potenti. Nullam porttitor lacus at turpis.
+97,7,Associate of cohesive,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus."
+98,8,Bachelor of archive,Morbi a ipsum. Integer a nibh.
+99,9,Bachelor of encompassing,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.
+100,10,Bachelor of Diverse,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+101,1,Associate of zero administration,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.
+102,2,Bachelor of mission-critical,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+103,3,Master of Focused,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+104,4,Associate of Optional,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.
+105,5,Bachelor of parallelism,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.
+106,6,Associate of Implemented,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque."
+107,7,Bachelor of Digitized,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+108,8,Master of encoding,Donec semper sapien a libero. Nam dui.
+109,9,Master of foreground,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique."
+110,10,Bachelor of high-level,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+111,1,Master of function,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+112,2,Bachelor of function,Morbi a ipsum. Integer a nibh. In quis justo.
+113,3,Associate of open system,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+114,4,Master of Networked,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique."
+115,5,Associate of Public-key,In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.
+116,6,Bachelor of Proactive,Ut tellus. Nulla ut erat id mauris vulputate elementum.
+117,7,Bachelor of intangible,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+118,8,Master of background,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+119,9,Bachelor of responsive,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+120,10,Associate of Stand-alone,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.
+121,1,Bachelor of implementation,Nunc rhoncus dui vel sem. Sed sagittis.
+122,2,Associate of implementation,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+123,3,Associate of portal,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.
+124,4,Associate of foreground,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+125,5,Master of Self-enabling,In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.
+126,6,Bachelor of tertiary,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.
+127,7,Bachelor of Assimilated,Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.
+128,8,Associate of core,Praesent blandit. Nam nulla.
+129,9,Bachelor of Extended,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio."
+130,10,Master of Virtual,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+131,1,Bachelor of global,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+132,2,Associate of protocol,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam."
+133,3,Master of knowledge user,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+134,4,Master of Optimized,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+135,5,Associate of Down-sized,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices."
+136,6,Bachelor of heuristic,"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+137,7,Bachelor of Ergonomic,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus."
+138,8,Bachelor of standardization,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+139,9,Bachelor of Fully-configurable,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.
+140,10,Bachelor of info-mediaries,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+141,1,Associate of methodology,Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.
+142,2,Master of open architecture,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+143,3,Bachelor of Reactive,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+144,4,Master of Right-sized,Suspendisse potenti. Nullam porttitor lacus at turpis.
+145,5,Associate of even-keeled,Aenean fermentum. Donec ut mauris eget massa tempor convallis.
+146,6,Bachelor of Reactive,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien."
+147,7,Associate of methodical,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.
+148,8,Associate of implementation,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+149,9,Associate of hybrid,Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.
+150,10,Bachelor of directional,Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+151,1,Bachelor of Devolved,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+152,2,Associate of cohesive,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+153,3,Bachelor of instruction set,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+154,4,Associate of Optional,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede."
+155,5,Associate of 24/7,Fusce consequat. Nulla nisl. Nunc nisl.
+156,6,Master of didactic,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.
+157,7,Associate of benchmark,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis."
+158,8,Associate of encompassing,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+159,9,Master of moratorium,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+160,10,Bachelor of modular,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+161,1,Bachelor of superstructure,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+162,2,Master of context-sensitive,Phasellus sit amet erat. Nulla tempus.
+163,3,Master of neutral,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+164,4,Associate of Team-oriented,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+165,5,Master of attitude-oriented,"Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+166,6,Associate of Ameliorated,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+167,7,Master of process improvement,Proin eu mi. Nulla ac enim.
+168,8,Master of stable,Etiam vel augue. Vestibulum rutrum rutrum neque.
+169,9,Associate of flexibility,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+170,10,Associate of mission-critical,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+171,1,Associate of user-facing,In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+172,2,Bachelor of functionalities,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien."
+173,3,Associate of De-engineered,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+174,4,Bachelor of hierarchy,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam."
+175,5,Master of asymmetric,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.
+176,6,Bachelor of Customer-focused,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+177,7,Master of didactic,"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+178,8,Associate of analyzer,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+179,9,Associate of eco-centric,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+180,10,Bachelor of intranet,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+181,1,Master of infrastructure,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla."
+182,2,Bachelor of internet solution,Vivamus tortor. Duis mattis egestas metus.
+183,3,Associate of user-facing,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula."
+184,4,Associate of value-added,In eleifend quam a odio. In hac habitasse platea dictumst.
+185,5,Bachelor of Graphical User Interface,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.
+186,6,Master of Decentralized,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+187,7,Associate of Optional,Aliquam erat volutpat. In congue. Etiam justo.
+188,8,Bachelor of definition,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+189,9,Associate of Proactive,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+190,10,Associate of Horizontal,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+191,1,Associate of Operative,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.
+192,2,Associate of database,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+193,3,Master of tertiary,Nulla tellus. In sagittis dui vel nisl.
+194,4,Bachelor of internet solution,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim."
+195,5,Associate of homogeneous,Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+196,6,Associate of capacity,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+197,7,Bachelor of Pre-emptive,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+198,8,Master of architecture,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+199,9,Master of Face to face,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+200,10,Master of bi-directional,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
