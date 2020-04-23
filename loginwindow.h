@@ -48,7 +48,7 @@ public:
     ~LoginWindow();
 
 signals:
-    void loginAcquired(QString, QString); //slot MainWindow::getLoginData
+    void loginAcquired(QString, QString, QString); //slot MainWindow::getLoginData
     void databaseOpen(QSqlDatabase);
 
 private slots:

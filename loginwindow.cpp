@@ -35,6 +35,7 @@ void LoginWindow::on_pushButton_login_clicked()
     QString username = ui->lineEdit_username->text();
     QString password = ui->lineEdit_password->text();
     QString fname;
+    QString user_id;
 
     if(!connOpen())
     {
@@ -60,9 +61,14 @@ void LoginWindow::on_pushButton_login_clicked()
             {
                 fname = qry.value(0).toString();
             }
+            QSqlQuery qry2("SELECT student_id FROM Student WHERE email='"+username+"'");
+            while(qry2.next())
+            {
+                user_id = qry2.value(0).toString();
+            }
             connClose();
             hide();
-            emit loginAcquired(fname, username);
+            emit loginAcquired(fname, username, user_id);
         }
         if(count>1)
             ui->label_status->setText("Duplicate username and password");

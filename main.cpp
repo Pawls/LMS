@@ -9,9 +9,9 @@ int main(int argc, char *argv[])
     LoginWindow loginWindow;
     MainWindow mainWindow;
 
-    QObject::connect(&loginWindow, SIGNAL(loginAcquired(QString,QString)),
-                     &mainWindow, SLOT(getLoginData(QString,QString)));
-    QObject::connect(&loginWindow, SIGNAL(loginAcquired(QString,QString)),
+    QObject::connect(&loginWindow, SIGNAL(loginAcquired(QString,QString,QString)),
+                     &mainWindow, SLOT(getLoginData(QString,QString,QString)));
+    QObject::connect(&loginWindow, SIGNAL(loginAcquired(QString,QString,QString)),
                      &mainWindow, SLOT(show()));
     QObject::connect(&loginWindow, SIGNAL(databaseOpen(QSqlDatabase)),
                      &mainWindow, SLOT(getDatabase(QSqlDatabase)));
