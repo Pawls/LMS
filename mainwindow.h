@@ -18,14 +18,11 @@ public:
 
 private slots:
     void getLoginData(QString, QString, QString);
-    void getDatabase(QSqlDatabase);
-
 
 private:
     Ui::MainWindow *ui;
     QString username;
     QString user_id;
-    QSqlDatabase mydb;
     void queryStudentHome();
 };
 

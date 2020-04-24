@@ -1,18 +1,15 @@
 #include "mainwindow.h"
-#include "loginwindow.h"
 #include "ui_mainwindow.h"
+#include "loginwindow.h"
 #include <QtSql>
-#include <QSqlRelationalTableModel>
+//#include <QSqlRelationalTableModel>
 #include <QModelIndex>
-
-//qDebug() << (model->rowCount());
 
 MainWindow::MainWindow(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
 }
 
 MainWindow::~MainWindow()
@@ -26,16 +23,6 @@ void MainWindow::getLoginData(QString fname, QString email, QString id)
     user_id = id;
     ui->label_username->setText(fname);
     queryStudentHome(); // Set up Home tab
-
-
-
-
-}
-
-// Unecessary, because I created a LoginWindow object
-void MainWindow::getDatabase(QSqlDatabase db)
-{
-    mydb = db;
 }
 
 void MainWindow::queryStudentHome() // Fill the homepage table for students
@@ -48,8 +35,8 @@ void MainWindow::queryStudentHome() // Fill the homepage table for students
 
     // Fill Home table view===============================================================
     QSqlQueryModel* model = new QSqlQueryModel;
-    ui->tableView_enrollment->setModel(model);
-    ui->tableView_enrollment->show();
+    //ui->tableView_enrollment->setModel(model);
+    //ui->tableView_enrollment->show();
     ui->tableView_enrollment->setEditTriggers(QAbstractItemView::NoEditTriggers);
 
     QSqlQuery * qry = new QSqlQuery(conn.mydb);
@@ -76,8 +63,8 @@ void MainWindow::queryStudentHome() // Fill the homepage table for students
     //=====================================================================================
     // Fill Assignment table view===============================================================
     QSqlQueryModel* model_assn = new QSqlQueryModel;
-    ui->tableView_assignments->setModel(model_assn);
-    ui->tableView_assignments->show();
+    //ui->tableView_assignments->setModel(model_assn);
+    //ui->tableView_assignments->show();
     ui->tableView_assignments->setEditTriggers(QAbstractItemView::NoEditTriggers);
 
     qry->prepare("SELECT "

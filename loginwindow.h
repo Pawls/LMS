@@ -2,7 +2,7 @@
 #define LOGINWINDOW_H
 
 #include <QMainWindow>
-#include <mainwindow.h>
+//#include <mainwindow.h>
 #include <QtSql>
 #include <QDebug>
 #include <QFileInfo>
@@ -48,8 +48,9 @@ public:
     ~LoginWindow();
 
 signals:
-    void loginAcquired(QString, QString, QString); //slot MainWindow::getLoginData
-    void databaseOpen(QSqlDatabase);
+    void loginAcquiredStudent(QString, QString, QString); //slot MainWindow::getLoginData
+    void loginAcquiredAdmin(QString, QString, QString); //slot AdminWindow::getLoginData
+    //void databaseOpen(QSqlDatabase);
 
 private slots:
     void on_pushButton_login_clicked();

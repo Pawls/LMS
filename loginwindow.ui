@@ -44,7 +44,7 @@
          <item>
           <widget class="QLineEdit" name="lineEdit_username">
            <property name="text">
-            <string>pdizzle@blank.com</string>
+            <string>ifairhead0@yandex.ru</string>
            </property>
            <property name="placeholderText">
             <string>email address</string>
@@ -68,7 +68,7 @@
          <item>
           <widget class="QLineEdit" name="lineEdit_password">
            <property name="text">
-            <string>8675309</string>
+            <string>J7mzuZ</string>
            </property>
            <property name="echoMode">
             <enum>QLineEdit::Password</enum>
