@@ -42,7 +42,14 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit_username"/>
+          <widget class="QLineEdit" name="lineEdit_username">
+           <property name="text">
+            <string>pdizzle@blank.com</string>
+           </property>
+           <property name="placeholderText">
+            <string>email address</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -60,6 +67,9 @@
          </item>
          <item>
           <widget class="QLineEdit" name="lineEdit_password">
+           <property name="text">
+            <string>8675309</string>
+           </property>
            <property name="echoMode">
             <enum>QLineEdit::Password</enum>
            </property>

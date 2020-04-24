@@ -1,8 +1,0 @@
-.import Staff.csv Staff
-.import Department.csv Department
-.import Degree.csv Degree
-.import Section.csv Section
-.import Course.csv Course
-.import Enrolled.csv Enrolled
-.import Assignment.csv Assignment
-.import Submission.csv Submission
