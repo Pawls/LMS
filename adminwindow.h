@@ -26,6 +26,10 @@ private slots:
 
     void on_pushButton_Clear_clicked();
 
+    void on_pushButton_Delete_clicked();
+
+    void on_pushButton_Update_clicked();
+
 private:
     Ui::AdminWindow *ui;
     QString username;

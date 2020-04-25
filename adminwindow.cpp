@@ -80,18 +80,22 @@ void AdminWindow::on_pushButton_Add_clicked()
         qry->bindValue(":phone",phone);
         qry->bindValue(":email",email);
         qry->bindValue(":password",password);
-        qry->exec();
-        conn.connClose();
+        if(qry->exec())
+            QMessageBox::information(this,"","Student added successfully.");
+        else
+            QMessageBox::information(this,"","Add student failed.");
         refreshTable(ui->tableView_students);
+        conn.connClose();
     }
     else
     {
-        QMessageBox::information(this,"","Add Record Failed");
+        QMessageBox::information(this,"","Add student aborted.");
     }
 }
 
 void AdminWindow::on_tableView_students_activated(const QModelIndex &index) // Populates lineEdits with selected row data
 {
+    ui->label_id->setText(index.sibling(index.row(),0).data().toString());
     ui->lineEdit_degree_id->setText(index.sibling(index.row(),1).data().toString());
     ui->lineEdit_date_admitted->setText(index.sibling(index.row(),2).data().toString());
     ui->lineEdit_first_name->setText(index.sibling(index.row(),3).data().toString());
@@ -106,6 +110,7 @@ void AdminWindow::on_tableView_students_activated(const QModelIndex &index) // P
 
 void AdminWindow::on_pushButton_Clear_clicked()
 {
+    ui->label_id->setText("");
     ui->lineEdit_degree_id->setText("");
     ui->lineEdit_date_admitted->setText("");
     ui->lineEdit_first_name->setText("");
@@ -116,4 +121,92 @@ void AdminWindow::on_pushButton_Clear_clicked()
     ui->lineEdit_zip_code->setText("");
     ui->lineEdit_phone->setText("");
     ui->lineEdit_email->setText("");
+}
+
+void AdminWindow::on_pushButton_Delete_clicked()
+{
+    QString student_id = ui->label_id->text();
+    if(student_id != "")
+    {
+        QMessageBox::StandardButton reply;
+        reply = QMessageBox::question(this,"","Are you sure you want to delete student "+student_id+"?");
+
+        if (reply == QMessageBox::Yes)
+        {
+            LoginWindow conn;
+            conn.connOpen();
+            QSqlQuery * qry = new QSqlQuery(conn.mydb);
+            qry->prepare("DELETE FROM Student WHERE student_id=:id");
+            qry->bindValue(":id",student_id);
+            if(qry->exec())
+                QMessageBox::information(this,"","Student delete successful.");
+            else
+                QMessageBox::information(this,"","Student delete failed.");
+            conn.connClose();
+            on_pushButton_Clear_clicked();
+            refreshTable(ui->tableView_students);
+        }
+    }
+    else
+        QMessageBox::information(this,"","Cannot delete NULL student");
+
+}
+
+void AdminWindow::on_pushButton_Update_clicked()
+{
+    QString student_id,degree_id,date_admitted,first_name,last_name,address,city,state,zip_code,phone,email;
+    student_id = ui->label_id->text();
+    degree_id = ui->lineEdit_degree_id->text();
+    date_admitted = ui->lineEdit_date_admitted->text();
+    first_name = ui->lineEdit_first_name->text();
+    last_name = ui->lineEdit_last_name->text();
+    address = ui->lineEdit_address->text();
+    city = ui->lineEdit_city->text();
+    state = ui->lineEdit_state->text();
+    zip_code = ui->lineEdit_zip_code->text();
+    phone = ui->lineEdit_phone->text();
+    email = ui->lineEdit_email->text();
+
+    if(student_id != "")
+    {
+        QMessageBox::StandardButton reply;
+        reply = QMessageBox::question(this,"","Are you sure you want to update student "+student_id+"?");
+        if (reply == QMessageBox::Yes)
+        {
+            LoginWindow conn;
+            conn.connOpen();
+            QSqlQuery * qry = new QSqlQuery(conn.mydb);
+            qry->prepare("UPDATE Student SET "
+                         "degree_id=:degree_id,"
+                         "date_admitted=:date_admitted,"
+                         "first_name=:first_name,"
+                         "last_name=:last_name,"
+                         "address=:address,"
+                         "city=:city,"
+                         "state=:state,"
+                         "zip_code=:zip_code,"
+                         "phone=:phone,"
+                         "email=:email "
+                         "WHERE student_id=:student_id");
+            qry->bindValue(":student_id",student_id);
+            qry->bindValue(":degree_id",degree_id);
+            qry->bindValue(":date_admitted",date_admitted);
+            qry->bindValue(":first_name",first_name);
+            qry->bindValue(":last_name",last_name);
+            qry->bindValue(":address",address);
+            qry->bindValue(":city",city);
+            qry->bindValue(":state",state);
+            qry->bindValue(":zip_code",zip_code);
+            qry->bindValue(":phone",phone);
+            qry->bindValue(":email",email);
+            if(qry->exec())
+                QMessageBox::information(this,"","Student update successful.");
+            else
+                QMessageBox::information(this,"","Student update failed.");
+            conn.connClose();
+            refreshTable(ui->tableView_students);
+        }
+    }
+    else
+        QMessageBox::information(this,"","Student does not exist. Please use ADD Record.");
 }
