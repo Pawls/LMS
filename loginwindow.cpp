@@ -98,7 +98,7 @@ void LoginWindow::on_pushButton_login_clicked()
                 {
                     fname = qry.value(0).toString();
                 }
-                QSqlQuery qry2("SELECT student_id FROM Staff WHERE email='"+username+"'");
+                QSqlQuery qry2("SELECT employee_id FROM Staff WHERE email='"+username+"'");
                 while(qry2.next())
                 {
                     user_id = qry2.value(0).toString();
