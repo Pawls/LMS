@@ -57,7 +57,7 @@ private slots:
 
 private:
     Ui::LoginWindow *ui;
-    LoginWindow *MainWindow;
+    LoginWindow *MainWindow{};
 
 };
 #endif // LOGINWINDOW_H

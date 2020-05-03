@@ -20,9 +20,7 @@ int main(int argc, char *argv[])
                      &adminWindow, SLOT(getLoginData(QString,QString,QString)));
     QObject::connect(&loginWindow, SIGNAL(loginAcquiredAdmin(QString,QString,QString)),
                      &adminWindow, SLOT(show()));
-    //QObject::connect(&loginWindow, SIGNAL(databaseOpen(QSqlDatabase)),
-     //                &mainWindow, SLOT(getDatabase(QSqlDatabase)));
 
     loginWindow.show();
-    return a.exec();
+    return QApplication::exec();
 }

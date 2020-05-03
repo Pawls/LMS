@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1283</width>
-    <height>745</height>
+    <height>572</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>0</x>
       <y>39</y>
       <width>1251</width>
-      <height>671</height>
+      <height>501</height>
      </rect>
     </property>
     <property name="title">
@@ -415,11 +415,6 @@
           </property>
          </widget>
         </widget>
-       </widget>
-       <widget class="QWidget" name="tab_6">
-        <attribute name="title">
-         <string>Empty</string>
-        </attribute>
        </widget>
       </widget>
      </item>

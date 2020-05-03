@@ -17,7 +17,7 @@ public:
     ~MainWindow();
 
 private slots:
-    void getLoginData(QString, QString, QString);
+    void getLoginData(const QString&, QString, QString);
 
 private:
     Ui::MainWindow *ui;

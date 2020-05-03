@@ -1,11 +1,6 @@
 #include "loginwindow.h"
 #include "ui_loginwindow.h"
 #include <QMessageBox>
-#include <QFile>
-#include <QTextStream>
-#include <QDir>
-
-//QMessageBox::information(this, "Login", "Login Successful!");
 
 QString student_path = "/data/Student.csv";
 
@@ -18,10 +13,7 @@ LoginWindow::LoginWindow(QWidget *parent)
     if(!connOpen())
         ui->label_status->setText("Failed to open the database");
     else
-    {
-        //emit databaseOpen(mydb);
         ui->label_status->setText("Connected...");
-    }
 }
 
 LoginWindow::~LoginWindow()

@@ -1,13 +1,11 @@
 #include "adminwindow.h"
 #include "ui_adminwindow.h"
 #include "loginwindow.h"
-
-//#include <QSqlRelationalTableModel>
 #include <QModelIndex>
 #include "editablesqlmodel.h"
 #include <QInputDialog>
 #include <QMessageBox>
-
+#include <utility> 
 AdminWindow::AdminWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::AdminWindow)
@@ -20,10 +18,10 @@ AdminWindow::~AdminWindow()
     delete ui;
 }
 
-void AdminWindow::getLoginData(QString fname, QString email, QString id)
+void AdminWindow::getLoginData(const QString& fname, QString email, QString id)
 {
-    username = email;
-    user_id = id;
+    username = std::move(email);
+    user_id = std::move(id);
     ui->label_admFname->setText(fname);
     refreshTable(ui->tableView_students); // Set up Home tab
 }
@@ -33,7 +31,7 @@ void AdminWindow::refreshTable(QTableView * tbl_ptr)
     LoginWindow conn;
     conn.connOpen();
 
-    QSqlQueryModel* model = new QSqlQueryModel;
+    auto* model = new QSqlQueryModel;
     QSqlQuery * qry = new QSqlQuery(conn.mydb);
     if(tbl_ptr->objectName() == "tableView_students")
         qry->prepare("SELECT student_id,degree_id,date_admitted,first_name,last_name,address,city,state,zip_code,phone,email "
@@ -46,7 +44,7 @@ void AdminWindow::refreshTable(QTableView * tbl_ptr)
 
 void AdminWindow::on_pushButton_Add_clicked()
 {
-    QString degree_id,date_admitted,first_name,last_name,address,city,state,zip_code,phone,email,password;
+    QString degree_id; QString date_admitted; QString first_name; QString last_name; QString address; QString city; QString state; QString zip_code; QString phone; QString email; QString password;
     degree_id = ui->lineEdit_degree_id->text();
     date_admitted = ui->lineEdit_date_admitted->text();
     first_name = ui->lineEdit_first_name->text();
@@ -154,7 +152,7 @@ void AdminWindow::on_pushButton_Delete_clicked()
 
 void AdminWindow::on_pushButton_Update_clicked()
 {
-    QString student_id,degree_id,date_admitted,first_name,last_name,address,city,state,zip_code,phone,email;
+    QString student_id; QString degree_id; QString date_admitted; QString first_name; QString last_name; QString address; QString city; QString state; QString zip_code; QString phone; QString email;
     student_id = ui->label_id->text();
     degree_id = ui->lineEdit_degree_id->text();
     date_admitted = ui->lineEdit_date_admitted->text();

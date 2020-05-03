@@ -4,6 +4,7 @@
 #include <QtSql>
 //#include <QSqlRelationalTableModel>
 #include <QModelIndex>
+#include <utility> 
 
 MainWindow::MainWindow(QWidget *parent) :
     QDialog(parent),
@@ -17,10 +18,10 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::getLoginData(QString fname, QString email, QString id)
+void MainWindow::getLoginData(const QString& fname, QString email, QString id)
 {
-    username = email;
-    user_id = id;
+    username = std::move(email);
+    user_id = std::move(id);
     ui->label_username->setText(fname);
     queryStudentHome(); // Set up Home tab
 }
@@ -34,7 +35,7 @@ void MainWindow::queryStudentHome() // Fill the homepage table for students
         ui->label_status->setText("Connected...");
 
     // Fill Home table view===============================================================
-    QSqlQueryModel* model = new QSqlQueryModel;
+    auto* model = new QSqlQueryModel;
     //ui->tableView_enrollment->setModel(model);
     //ui->tableView_enrollment->show();
     ui->tableView_enrollment->setEditTriggers(QAbstractItemView::NoEditTriggers);
@@ -62,9 +63,7 @@ void MainWindow::queryStudentHome() // Fill the homepage table for students
     ui->tableView_enrollment->setModel(model);
     //=====================================================================================
     // Fill Assignment table view===============================================================
-    QSqlQueryModel* model_assn = new QSqlQueryModel;
-    //ui->tableView_assignments->setModel(model_assn);
-    //ui->tableView_assignments->show();
+    auto* model_assn = new QSqlQueryModel;
     ui->tableView_assignments->setEditTriggers(QAbstractItemView::NoEditTriggers);
 
     qry->prepare("SELECT "
