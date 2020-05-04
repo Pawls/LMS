@@ -18,6 +18,7 @@ AdminWindow::~AdminWindow()
     delete ui;
 }
 
+
 void AdminWindow::getLoginData(const QString& fname, QString email, QString id)
 {
     username = std::move(email);
